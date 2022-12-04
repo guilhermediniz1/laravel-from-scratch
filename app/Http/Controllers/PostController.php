@@ -20,4 +20,9 @@ class PostController extends Controller
             'post' => $post,
         ]);
     }
+
+    public function  addComment()
+    {
+
+    }
 }
