@@ -8,7 +8,7 @@
             </header>
             <textarea name="body" class="p-2 mt-4 w-full" rows="5" placeholder="Quick, thing of something to say!" required></textarea>
             @error('body')
-            <span class="text-xs text-red-500">{{ $message }}</span>
+                <span class="text-xs text-red-500">{{ $message }}</span>
             @enderror
             <div class="flex justify-end border-t border-gray-200 mt-10 pt-6">
                 <x-submit-button>
